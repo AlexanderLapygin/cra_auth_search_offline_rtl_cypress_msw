@@ -11,8 +11,10 @@ UNDER DEVELOPMENT
 ## Feature tags
 
 - auth
+- ci
 - create-react-app
 - cypress
+- db
 - e2e
 - javascript
 - mock-server-worker
@@ -29,7 +31,7 @@ UNDER DEVELOPMENT
 
 ## Direct ancestors
 
-[***- offline, auth, search***: cra_rtl_cypress_msw](https://github.com/AlexanderLapygin/cra_rtl_cypress_msw)
+[***- auth, ci, db, offline, search***: cra_rtl_cypress_msw](https://github.com/AlexanderLapygin/cra_rtl_cypress_msw)
 
 ---
 

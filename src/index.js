@@ -1,11 +1,18 @@
-import React from 'react'
+import {loadDevTools} from './dev-tools/load'
+import './bootstrap'
+import * as React from 'react'
 import ReactDOM from 'react-dom'
-import { LoginForm } from './LoginForm'
+import {Profiler} from 'components/profiler'
+import {App} from './app'
+import {AppProviders} from './context'
 
-// Start the mocking conditionally.
-if (process.env.NODE_ENV === 'development') {
-  const { worker } = require('./mocks/browser')
-  worker.start()
-}
-
-ReactDOM.render(<LoginForm />, document.getElementById('root'))
+loadDevTools(() => {
+  ReactDOM.render(
+    <Profiler id="App Root" phases={['mount']}>
+      <AppProviders>
+        <App />
+      </AppProviders>
+    </Profiler>,
+    document.getElementById('root'),
+  )
+})

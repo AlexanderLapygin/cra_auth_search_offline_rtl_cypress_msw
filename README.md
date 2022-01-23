@@ -6,7 +6,7 @@
 
 UNDER DEVELOPMENT
 
-# CRA starter with testing by React Testing Library, Cypress and MSW
+# CRA starter for offline application with authentication, search, tests using RTL, Cypress and MSW
 
 ## Feature tags
 
@@ -81,7 +81,7 @@ yarn test
 
 ## Inspired by
 
-[rest-react - example from MSW](https://github.com/mswjs/examples/tree/master/examples/rest-react)
+[bookshelf by Kent Dodds](https://github.com/kentcdodds/bookshelf)
 
 ### License
 

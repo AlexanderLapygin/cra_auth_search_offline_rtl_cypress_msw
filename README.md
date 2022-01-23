@@ -15,6 +15,7 @@ UNDER DEVELOPMENT
 - create-react-app
 - cypress
 - db
+- docker-compose
 - e2e
 - javascript
 - mock-server-worker
@@ -31,7 +32,7 @@ UNDER DEVELOPMENT
 
 ## Direct ancestors
 
-[***- auth, ci, db, offline, search***: cra_rtl_cypress_msw](https://github.com/AlexanderLapygin/cra_rtl_cypress_msw)
+[***- auth, ci, db, docker-compose, offline, search***: cra_rtl_cypress_msw](https://github.com/AlexanderLapygin/cra_rtl_cypress_msw)
 
 ---
 

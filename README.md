@@ -4,18 +4,23 @@
     </a>
 </div>
 
+UNDER DEVELOPMENT
+
 # CRA starter with testing by React Testing Library, Cypress and MSW
 
 ## Feature tags
 
+- auth
 - create-react-app
 - cypress
 - e2e
 - javascript
 - mock-server-worker
+- offline
 - react
 - react-testing-library
 - rest
+- search
 - starter
 - template
 - testing
@@ -24,13 +29,7 @@
 
 ## Direct ancestors
 
-[***- cypress, e2e***: cra_rtl_msw](https://github.com/AlexanderLapygin/cra_rtl_msw)
-
-## Direct descendants
-
-[***+ ts, react-query***: cra_ts_rtl_msw_react-query](https://github.com/AlexanderLapygin/cra_ts_rtl_msw_react-query)
-
-TODO split starter to add starter without cypress and correct hierarchy of starters
+[***- offline, auth, search***: cra_rtl_cypress_msw](https://github.com/AlexanderLapygin/cra_rtl_cypress_msw)
 
 ---
 

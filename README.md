@@ -6,6 +6,7 @@
 
 UNDER DEVELOPMENT
 
+
 # CRA starter for offline application with authentication, search, persistence and testing using RTL, Cypress and MSW
 
 ## Feature tags
